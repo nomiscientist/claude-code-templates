@@ -1,8 +1,4 @@
 # Environment files
-.env
-.env.local
-.env.production
-.env.development
 .env*.local
 
 # Claude Code local settings (may contain API keys)
@@ -50,8 +46,6 @@ test-cloudflare/
 .DS_Storetemp-gh-pages/
 
 # IDE files
-.vscode
-.vscode/*
 .idea/
 *.swp
 *.swo
@@ -61,3 +55,4 @@ test-cloudflare/
 
 # Local analysis (not for git)
 analysis/
+config.bat
